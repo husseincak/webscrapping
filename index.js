@@ -39,6 +39,6 @@ http.createServer(async function(request, response) {
 
   response.end(JSON.stringify(values));
 
-}).listen(8000);
+}).listen(process.env.PORT);
 
 //console.log('Servidor en la url http://127.0.0.1:8000/');
